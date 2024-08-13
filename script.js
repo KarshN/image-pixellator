@@ -36,7 +36,7 @@ function draw() {
   }
     scaleFactor=(scaleWidth/img.width)
     if(frame<1){
-      pSize=5
+      pSize=10
       createCanvas(img.width*scaleFactor+300, img.height*scaleFactor,(ceil(img.height/pSize)-img.height/pSize)*pSize*scaleFactor+5)
     }
   stroke(1)
