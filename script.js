@@ -106,7 +106,7 @@ function draw() {
     textSize(15)
     text("Size: "+ceil(img.width/pSize)+"x"+ceil(img.height/pSize),scaleWidth+50,185)
     textSize(10)
-    text("("+ceil(ceil(img.width/pSize)/29)*ceil(ceil(img.height/pSize)/29)+" perler bead plates)",scaleWidth+130,183)
+    text("("+ceil(ceil(img.width/pSize)/29)*ceil(ceil(img.height/pSize)/29)+" perler bead plates)",scaleWidth+145,183)
   }
 
   if(inputLoaded){
